@@ -2,7 +2,7 @@
 $twitter = $site->twitter();
 $cardtype = $page->twittercard();
 $description = $page->description();
-$image = $page->image('featured.jpg');
+$image = $page->tcardimage();
 
    if (isset($twitter) AND isset($cardtype) AND isset($description)) {
       if (!($cardtype == "summary" OR $cardtype == "summary_large_image" OR $cardtype == "photo" OR $cardtype == "gallery")) {

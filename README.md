@@ -1,7 +1,7 @@
 # ChirpKard
 
 [![Source](https://img.shields.io/badge/source-cedwardsmedia/chirpkard-blue.svg?style=flat-square "Source")](https://www.github.com/cedwardsmedia/chirpkard)
-![Version](https://img.shields.io/badge/version-0.2--dev-red.svg?style=flat-square)
+![Version](https://img.shields.io/badge/version-0.3--dev-red.svg?style=flat-square)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat-square "License")](./LICENSE)
 [![Gratipay](https://img.shields.io/gratipay/cedwardsmedia.svg?style=flat-square "License")](https://gratipay.com/~cedwardsmedia/)
 
@@ -18,11 +18,11 @@ _ChirpKard_ is a snippet that generates [Twitter Cards](https://dev.twitter.com/
 ## To-do
 
 1. Add more Twitter card types
-2. Add option to select image for card in MarkDown file
 
 ## History
 
- - **[Nov 12, 2015]: 0.2-dev - First working version**
+ - **[Nov 13, 2015]: 0.3-dev Added option to select image for card in MarkDown file**
+ - [Nov 12, 2015]: 0.2-dev - First working version
  - [_Nov 8, 2015_]: 0.1-dev Initial Concept and Code
 
 
