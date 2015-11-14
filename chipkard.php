@@ -1,6 +1,6 @@
 <?php
 $twitter = $site->twitter();
-$cardtype = $page->twittercard();
+$cardtype = $page->tcardtype();
 $description = $page->description();
 $image = $page->tcardimage();
 
