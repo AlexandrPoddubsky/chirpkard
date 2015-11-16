@@ -17,7 +17,9 @@ _ChirpKard_ is a snippet that generates [Twitter Cards](https://dev.twitter.com/
 
 ## To-do
 
-1. Add more Twitter card types
+1. Add Gallery Card
+2. Add App Card
+3. Consider adding Player Card (Twitter approval required on a per-site basis.)
 
 ## History
 
