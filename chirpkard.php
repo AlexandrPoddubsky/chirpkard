@@ -23,6 +23,21 @@ $image = $page->tcardimage();
   <meta name="twitter:image" content="<?php echo $image->url() ?>" />
 <?php endif;
 
+   switch ($cardtype) {
+      case "summary": ?>
+      <meta name="twitter:app:country" content="<?php echo $page->country(); ?>">
+      <meta name="twitter:app:name:iphone" content="<?php echo $page->iphoneappname(); ?>">
+      <meta name="twitter:app:id:iphone" content="<?php echo $page->iphoneappid(); ?>">
+      <meta name="twitter:app:url:iphone" content="<?php echo $page->iphoneappurl(); ?>">
+      <meta name="twitter:app:name:ipad" content="<?php echo $page->ipadappname(); ?>">
+      <meta name="twitter:app:id:ipad" content="<?php echo $page->ipadappid(); ?>">
+      <meta name="twitter:app:url:ipad" content="ipadappurl">
+      <meta name="twitter:app:name:googleplay" content="<?php echo $page->googleappname(); ?>">
+      <meta name="twitter:app:id:googleplay" content="googleappid">
+      <meta name="twitter:app:url:googleplay" content="googleplayurl">
+<?php
+   }
+
    } else {
       return null;
    }
